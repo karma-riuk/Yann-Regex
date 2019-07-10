@@ -25,20 +25,5 @@
  *      ou pas)?
  *      Answer: Just check (maj too).
  */
-function try_function(){
-    var re = new RegExp('llo?');
 
-    var hello = "Helo world";
-
-    var test = re.test(hello);
-
-    print(test);
-}
-
-try_function();
-
-
-function regex(filename){
-    var re = new RegEx
-}
-
+theFile.rename("coucou.pdf")
