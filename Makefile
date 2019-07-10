@@ -1,2 +1,0 @@
-run: 
-	rhino regex.js
