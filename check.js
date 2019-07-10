@@ -25,20 +25,14 @@
  *      ou pas)?
  *      Answer: Just check (maj too).
  */
-function try_function(){
-    var re = new RegExp('llo?');
-
-    var hello = "Helo world";
-
-    var test = re.test(hello);
-
-    print(test);
-}
-
-try_function();
 
 
-function regex(filename){
-    var re = new RegEx
-}
+var re = new RegExp('\\d{1,3}([- ])([iI]([abAB])|[iI]?[vV]|[iI]{0,3})([- ])\\d*');
+
+return re.test(theFile)
+
+
+
+
+
 
