@@ -26,4 +26,16 @@
  *      Answer: Just check (maj too).
  */
 
-theFile.rename("coucou.pdf")
+/*
+ * TEST AREA
+ */
+theFile.rename("coucou.pdf") // if theFile is a File
+
+theFile = "coucou.pdf" // maybe it can work, idk
+
+/*
+ * Final code (in function of what the test gave)
+ */
+
+new RegExp('\\d{1,3}([- ])([iI]([abAB])|[iI]?[vV]|[iI]{0,3})([- ])\\d*')).test(theFile) // if theFile is a String
+
