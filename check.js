@@ -27,9 +27,9 @@
  */
 
 
-var re = new RegExp('\\d{1,3}([- ])([iI]([abAB])|[iI]?[vV]|[iI]{0,3})([- ])\\d*');
+return (new RegExp('\\d{1,3}([- ])([iI]([abAB])|[iI]?[vV]|[iI]{0,3})([- ])\\d*')).test(theFile) // if theFile is a String
 
-return re.test(theFile)
+//return (new RegExp('\\d{1,3}([- ])([iI]([abAB])|[iI]?[vV]|[iI]{0,3})([- ])\\d*')).test(theFile.name) // if theFile is a File, not sure if is the right way
 
 
 
